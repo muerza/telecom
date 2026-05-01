@@ -65,25 +65,6 @@ Source: Internal Interconnect CSV exports (not versioned by data policy — must
 - **RAM:** 64 GB
 - **GPU:** NVIDIA RTX 4080 SUPER (optional, used for PyTorch experiments)
 
-## Structure
-```
-Proyecto Final/
-├── README.md
-├── requirements.txt
-├── Data/
-│   ├── contract.csv
-│   ├── personal.csv
-│   ├── internet.csv
-│   └── phone.csv
-└── Notebook/
-    ├── Proyecto Final.ipynb            # Main notebook
-    ├── Informe Mesa Directiva.ipynb    # Executive summary
-    ├── Plan de Trabajo.ipynb           # Work plan & retrospective
-    ├── ERD_editor.html                 # Entity-relationship diagram
-    ├── lista_retencion.csv             # Generated at runtime
-    └── lista_retencion.xlsx            # Generated at runtime
-```
-
 ## How to Run
 1. Activate the shared virtual environment:
    ```
